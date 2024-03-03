@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: lightgrey;
+            font-family: Arial, sans-serif;
+        }
+        .text-yellow {
+            color: darkgoldenrod;
+        }
+        .navbar {
+            background-color: grey;
+        }
+        .navbar-brand img {
+            width: 70px;
+        }
+        .nav-link {
+            color: yellow !important;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm justify-content-left fixed-top bg-dark">
+        <a class="navbar-brand" href="#"><img src="imdb2.png" alt="IMDB Logo"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-yellow" href="https://www.imdb.com/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-yellow" href="https://www.imdb.com/search/title/?title_type=feature&primary_language=en">Movies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-yellow" href="https://www.imdb.com/feature/genre/">Genres</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-yellow" href="https://help.imdb.com/contact">Contact us</a>
+            </li>
+        </ul>
+       
+        <form class="d-flex ms-auto">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="inception.jpg" alt="Inception Poster" class="img-fluid rounded">
+                <h2 class="text-yellow mt-3">Inception (2010)</h2>
+                <p class="text-yellow">Synopsis: Directed by Christopher Nolan, this mind-bending thriller explores the concept of dreams within dreams, featuring a stellar cast led by Leonardo DiCaprio.</p>
+                <p class="text-yellow">Director: Christopher Nolan</p>
+                <p class="text-yellow">Cast: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy</p>
+                <p class="text-yellow">Reviews: "Inception is a visually stunning and intellectually captivating masterpiece that keeps you guessing until the very end." - IMDb</p>
+            </div>
+            <div class="col-md-4">
+                <img src="shawshank.jpg" alt="Shawshank Redemption Poster" class="img-fluid rounded">
+                <h2 class="text-yellow mt-3">The Shawshank Redemption (1994)</h2>
+                <p class="text-yellow">Synopsis: Directed by Frank Darabont and based on a Stephen King novella, this drama follows the story of a banker wrongly convicted of murder and his experiences in Shawshank State Penitentiary.</p>
+                <p class="text-yellow">Director: Frank Darabont</p>
+                <p class="text-yellow">Cast: Tim Robbins, Morgan Freeman</p>
+                <p class="text-yellow">Reviews: "The Shawshank Redemption is a timeless classic with powerful performances and a poignant story that stays with you long after the credits roll." - Rotten Tomatoes</p>
+            </div>
+            <div class="col-md-4">
+                <img src="godfather.jpg" alt="The Godfather Poster" style="width: 100%">
+                <h2 class="text-yellow">The Godfather (1972)</h2>
+                <p class="text-yellow">Synopsis: Directed by Francis Ford Coppola, this classic crime film chronicles the story of the powerful Italian-American mafia family of Don Vito Corleone, played by Marlon Brando, and his son Michael, played by Al Pacino.</p>
+                <p class="text-yellow">Director: Francis Ford Coppola</p>
+                <p class="text-yellow">Cast: Marlon Brando, Al Pacino, James Caan, Robert Duvall</p>
+                <p class="text-yellow">Reviews: "The Godfather is a cinematic masterpiece, with impeccable performances, rich storytelling, and iconic moments that have solidified its place in film history." - Empire Magazine</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>Website Made By <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"class="text-yellow">Alvurnz Gabrielle Tarinay</a></p>
+    </footer>
+
+</body>
+</html>
